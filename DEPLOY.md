@@ -6,8 +6,8 @@
 
 1. مخزن پروژه را در GitHub قرار بده.
 2. یک دیتابیس PostgreSQL در Supabase بساز و رشتهٔ اتصال JDBC را از بخش اتصال دیتابیس بردار.
-3. در Render یک Web Service جدید بساز و مخزن را وصل کن؛ محیط اجرا را Docker انتخاب کن تا از `Dockerfile` ریشه استفاده شود.
-4. در Environment سرویس این متغیرها را تنظیم کن:
+3. در Render یک Blueprint جدید بساز و مخزن را وصل کن؛ فایل `render.yaml` سرویس Docker را تعریف می‌کند و کلید مدیر تصادفی تولید می‌شود.
+4. هنگام ساخت Blueprint این متغیرها را وارد کن:
    - `DB_URL`: رشتهٔ اتصال JDBC از Supabase، با `sslmode=require`.
    - `DB_USER`: نام کاربری دیتابیس.
    - `DB_PASSWORD`: رمز دیتابیس.
