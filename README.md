@@ -1,5 +1,9 @@
 # فروشگاه آنلاین و اپ مدیریت
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2Fmostafakhoshhal1388-spec%2Fonline-store-javafx)
+
+برای ساخت سرویس عمومی، دکمهٔ بالا را بزن و هنگام راه‌اندازی مقادیر اتصال PostgreSQL از Supabase را وارد کن. راهنمای کامل در `DEPLOY.md` است.
+
 پروژهٔ شروع شامل سایت مشتری، API جاوا و اپ دسکتاپ JavaFX برای مدیریت محصولات است. در اجرای محلی با Maven، داده‌ها در فایل H2 محلی ذخیره می‌شوند؛ فایل‌های دیتابیس و محصولات محلی در مخزن ثبت نمی‌شوند. API برای PostgreSQL نیز قابل تنظیم است.
 
 ## اجرا
