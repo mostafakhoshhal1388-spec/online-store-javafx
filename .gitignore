@@ -1,0 +1,7 @@
+**/target/
+**/data/
+.admin-key
+.backend-host.log
+.backend-error.log
+.cloudflared/
+cloudflared.exe
